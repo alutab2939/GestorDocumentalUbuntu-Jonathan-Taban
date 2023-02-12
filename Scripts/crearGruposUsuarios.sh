@@ -18,12 +18,12 @@ sudo groupadd gr_DAM_rwx
 #Crear Usuarios
 sudo useradd -m -s /bin/bash -G gr_1ESO_rwx alu_1ESO
 sudo useradd -m -s /bin/bash -G gr_2ESO_rwx alu_2ESO
-sudo useradd -m -s /bin/bash -G gr_3ESO_rxw alu_3ESO
-sudo useradd -m -s /bin/bash -G gr_4ESO_rxw alu_4ESO
-sudo useradd -m -s /bin/bash -G gr_1BACH_rxw alu_1BACH
-sudo useradd -m -s /bin/bash -G gr_2BACH_rxw alu_2BACH
-sudo useradd -m -s /bin/bash -G gr_DAM_rxw alu_1DAM
-sudo useradd -m -s /bin/bash -G gr_DAM_rxw alu_2DAM
+sudo useradd -m -s /bin/bash -G gr_3ESO_rwx alu_3ESO
+sudo useradd -m -s /bin/bash -G gr_4ESO_rwx alu_4ESO
+sudo useradd -m -s /bin/bash -G gr_1BACH_rwx alu_1BACH
+sudo useradd -m -s /bin/bash -G gr_2BACH_rwx alu_2BACH
+sudo useradd -m -s /bin/bash -G gr_DAM_rwx alu_1DAM
+sudo useradd -m -s /bin/bash -G gr_DAM_rwx alu_2DAM
 
 #Añadir Usuarios a Grupos
 sudo usermod -a -G gr_2ESO_rx,gr_3ESO_rx,gr_4ESO_rx alu_1ESO
